@@ -1,1 +1,91 @@
+#container {
+    height: 420px;
+    width: 600px;
+    display: flex
+}
 
+div {
+    display: inline-block;
+}
+
+div label {
+    display: block;
+}
+
+#containerForm {
+    height: 100%;
+    width: 64%;
+}
+
+#containerForm textarea {
+    width: 370px;
+}
+
+#containerForm button {
+    all: unset;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    padding: 10px 2px;
+    text-align: center;
+    width: 177px;
+    height: 15px;
+    margin-bottom: 5px;
+}
+
+#containerForm button:hover {
+    border: 1px solid white;
+}
+
+#containerForm input[type=text], input[type=number] {
+    padding: 10px 2px;
+    margin-right: 5px;
+    margin-bottom: 3px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#containerForm select {
+    -webkit-appearance: none;
+    background-color: white;
+    padding: 10px 2px;
+    width: 183px;
+    margin-right: 5px;
+    margin-bottom: 3px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#containerList {
+    height: 100%;
+    width: 36%;
+}
+
+#containerList ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#containerList ul li {
+    width: 100%;
+    margin-bottom: 3px;
+    padding: 2px;
+    background: #e5e0e0;
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+}
+
+#containerList ul li p {
+    width: 50%;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+#deleteBtn {
+    text-align: right;
+    color: darkred;
+    font-weight: 900;
+    margin-right: 5px;
+}
